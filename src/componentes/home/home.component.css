@@ -1,0 +1,20 @@
+/* En home.component.scss o home.component.css */
+@import 'aos/dist/aos.css';
+/* Eliminar los iconos predeterminados de Bootstrap */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none !important;
+}
+
+/* Ahora asignamos nuestros propios iconos */
+.carousel-control-prev-icon::before {
+  content: "\2190"; /* Unicode para la flecha izquierda */
+  font-size: 30px;
+  color: black;
+}
+
+.carousel-control-next-icon::before {
+  content: "\2192"; /* Unicode para la flecha derecha */
+  font-size: 30px;
+  color: black;
+}

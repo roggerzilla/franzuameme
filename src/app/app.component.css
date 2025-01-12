@@ -1,0 +1,10 @@
+/* Eliminar subrayado por defecto en todos los enlaces */
+a {
+    text-decoration: none;
+  }
+  
+  /* Mostrar subrayado solo al hacer hover */
+  a:hover {
+    text-decoration: underline;
+  }
+  

@@ -22,6 +22,7 @@
     "@angular/router": "^19.0.0",
     "@angular/ssr": "^19.0.7",
     "@ng-bootstrap/ng-bootstrap": "^18.0.0",
+    "angular-cli-ghpages": "^2.0.3",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
     "express": "^4.18.2",

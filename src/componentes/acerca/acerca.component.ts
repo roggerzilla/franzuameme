@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { AfterViewInit, Component } from '@angular/core';
+import * as AOS from 'aos'
 
 @Component({
   selector: 'app-acerca',
@@ -6,6 +7,10 @@ import { Component } from '@angular/core';
   templateUrl: './acerca.component.html',
   styleUrl: './acerca.component.css'
 })
-export class AcercaComponent {
-
+export class AcercaComponent implements AfterViewInit{
+  ngAfterViewInit() {
+    if (typeof window !== 'undefined') {
+      AOS.init();
+    }
+  }
 }
